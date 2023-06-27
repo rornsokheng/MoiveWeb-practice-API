@@ -2,7 +2,7 @@
   <a href="https://www.youtube.com/@rornsokheng" target="_blank" rel="noopener noreferrer"><img src="/src//components//img/logo-text.svg" width="200px" alt="The Rocket devs Logo" /></a>
 </p>
 
-<p align="center">A <a href="https://developer.themoviedb.org/" target="_blank" rel="noopener noreferrer">TMDB</a>API</p>
+<p align="center">The Rocket Devs Infinity</p>
 <p align="center">
 <img src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white" width="80">
 <img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&logoWidth=30" width="80">
