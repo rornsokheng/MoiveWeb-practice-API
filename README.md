@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white" width="80">
 <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" width="110">
 <br/>
-<img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCJHZ__wUxS9lgTZHMxpMJcQ?style=social">
+<img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/@rornsokheng">
 <br/>
 <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_560/https://adscom.biz/wp-content/uploads/2017/02/ABA-logo-no-padding.png" width="80" alt="ABA" />
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png" width="55" alt="The rocket devs Logos" />
@@ -59,12 +59,13 @@ Visit http://localhost:3000/
 ```bash
 # build for production and launch server
 $ npm start
+```
 
 ## Donation
 
 Kindly donate to the following bank account (Cambodia) if you want to support our works.
 
-<img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_560/https://adscom.biz/wp-content/uploads/2017/02/ABA-logo-no-padding.png" width="120" alt="TFD Logo" />
+<img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_560/https://adscom.biz/wp-content/uploads/2017/02/ABA-logo-no-padding.png" width="120" alt="rocket devs Logo" />
 
 #### RORN SOKHENG
 
@@ -75,4 +76,7 @@ You can also donate with **Visa Direct**.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png" width="120" alt="the rocket devs Logo" />
 
 #### 5156 8303 3912 5198
+
+```
+
 ```
