@@ -45,6 +45,38 @@
 - Tailwindcss: ^3.3.2
 - React: ^18.2.0
 
+### Install Plugin
+
+```bash
+npm install flowbite flowbite-react
+npm install framer-motion
+```
+
+### Require Flowbite as a plugin inside your tailwind.config.js file:
+
+```bash
+module.exports = {
+
+    plugins: [
+        require('flowbite/plugin')
+    ]
+
+}
+```
+
+### Additionally to your own content data you should add the Flowbite source paths to apply the classes from the interactive elements in the tailwind.config.js file:
+
+```bash
+module.exports = {
+
+    content: [
+        // ...
+        'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+    ]
+
+}
+```
+
 ### Client Installation
 
 ```bash
