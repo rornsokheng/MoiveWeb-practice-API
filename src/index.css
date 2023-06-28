@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply bg-black;
+    @apply bg-[#222];
   }
   button {
     @apply border border-white text-white;
@@ -13,6 +13,9 @@
     @apply text-white;
   }
   p {
+    @apply text-white;
+  }
+  a {
     @apply text-white;
   }
 }

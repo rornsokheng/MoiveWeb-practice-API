@@ -50,7 +50,7 @@ const Detail = () => {
                 <img
                   src={img_url + detail.poster_path}
                   alt="Movie poster"
-                  className=" w-80 object-cover rounded-lg "
+                  className=" w-32 object-cover rounded-lg md:w-80"
                 />
               </motion.div>
             </AnimatePresence>
@@ -63,14 +63,14 @@ const Detail = () => {
                 height="315"
                 allowFullScreen
                 src={`https://www.youtube.com/embed/${trailerKey}`}
-                className="mt-2 w-80 h-52 rounded-lg"
+                className="mt-2 w-80 h-52 rounded-lg "
                 frameborder="0"
               ></iframe>
             )}
           </div>
-          <div className=" fixed right-0 backdrop-blur-lg h-screen w-[50vw] top-0 flex flex-col p-10 overflow-hidden">
+          <div className=" fixed right-0 backdrop-blur-lg h-screen w-[50vw] top-0 flex flex-col p-10 md:overflow-hidden overflow-y-scroll ">
             <motion.div layout>
-              <h1 className="mt-20 text-2xl font-bold tracking-wide">
+              <h1 className="mt-20 text-lg md:text-2xl font-bold tracking-wide">
                 ចំណងជើង: {detail.title}
               </h1>
             </motion.div>

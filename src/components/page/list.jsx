@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import Footer from "../footer";
 
 const List = ({ movies }) => {
   const img_url = "https://image.tmdb.org/t/p/w500";
@@ -24,7 +25,7 @@ const List = ({ movies }) => {
       ) : (
         <motion.div
           layout
-          className=" w-[70%] mx-auto grid grid-cols-5 gap-x-5 gap-y-10 py-16"
+          className=" w-[70%] mx-auto grid md:grid-cols-5 gap-x-5 gap-y-10 py-16"
         >
           <AnimatePresence>
             {movies.map((movies) => (
@@ -39,15 +40,18 @@ const List = ({ movies }) => {
                   <img
                     src={img_url + movies.poster_path}
                     alt="movie"
-                    className=" object-cover w-full rounded-lg h-[90%} group-hover:scale-105 transition duration-300 ease-in-out"
+                    className=" object-cover w-full md: rounded-lg h-[80%] md:h-[80%] group-hover:scale-105 transition duration-300 ease-in-out"
                   />
-                  <h1 className="text-sm mt-2 text-center">{movies.title}</h1>
+                  <h1 className="text-md md:text-sm mt-4 text-center">
+                    {movies.title}
+                  </h1>
                 </motion.div>
               </Link>
             ))}
           </AnimatePresence>
         </motion.div>
       )}
+      <Footer />
     </>
   );
 };
